@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+section p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+figcaption{
+    font-size: 0.80rem;
+    font-weight: 200;
+    font-family: cursive;
+    color:darkred
+
+}
+li{
+font-family: lobster; 
+}
+.logo{
+    height: 10vh;
+    width: auto;
+}
+.vajillas{
+    height: 50vh;
+    width: 50vh;
+}
+.video{
+    height: auto;
+    width: 50vh;
+}
+#contacto{
+    font-size: 1,2rem;
+}
+.rrss{
+    height: auto;
+    width: 5vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(161, 127, 255);
+    border: 2px solid black;
+}
+.navegadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap:16px;
+}
+.nav-links{
+    color: black;
+    text-decoration: none;
+}
+.headerr{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 2rem;
+    padding: 0px 0px 0px 16px;
+}
+.headerr h1{
+    text-decoration: underline;
+}
+.header-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    list-style: none;
+    gap: 16px;
+}
+.mainbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 16px;
+    background-color: rgb(235, 235, 202);
+    gap: 1rem;
+
+}
+.sectionbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.sectionbar p{
+    margin-bottom: 16px;
+}
+.sectionbar .vajillas{
+    border-radius: 8px;
+}
+.articlebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    align-items: center;
+}
+.articlebar h1{
+    margin-bottom: 32px;
+}
+.articlebar .vajillas{
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+.articlebar .video{
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+.dosarticle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dosarticle dosarticleimagen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+.dosarticle .vajillas{
+    border-radius: 8px;
+}
+#contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 16px;
+    background-color: rgb(235, 235, 202);
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+}

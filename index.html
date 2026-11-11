@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi pagina</title>
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a>
+                    <img src="./assets/logo para fondo.png" alt="Logo proyecto" class="logo">
+            </a>
+            
+            <ul class="navegadores"><!--engrupa los listados-->
+                <li> <!--crea listado-->
+                    <a class="nav-links" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav-links" href= "./pages/nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a class="nav-links" href="./pages/productos.html">Productos</a>
+                </li>
+                <li>
+                    <a class="nav-links" href="./pages/ubicacion.html">Ubicación</a>
+                </li>
+                <li>
+                    <a class="nav-links" href="./pages/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <!--Aca ira un fondo-->
+        <header class="headerr">
+
+            <h1>Tu renovación es hoy</h1>
+            <p>Soy Nahuel Monachesi, estaré desarrollando esta página web de todos tipos de vajillas, te ayudaré a conseguir lo mejor para tu vida</p>
+            <ul class="header-link">
+                <li>
+                    <a href="#contacto">Contactame acá</a>
+                 </li>
+                <li>
+                     <a href="https://www.linkedin.com/in/victor-nahuel-monachesi/" target="_blank">Perfil profesional</a>
+                </li>
+            </ul>    
+        </header>
+
+        <main class="mainbar">
+            <h1>ENCUENTRA TODAS TUS VAJILLAS PARA EL HOGAR</h1>
+            <Img src="./assets/vajillas.png" alt="fotografia de vajillas" class:"vajillas">
+            <figcaption>
+                Vajillas hermosas para deleitar la mesa de tu hogar
+            </figcaption>
+        </main>
+        <section class="sectionbar">
+            <div>
+                <p>
+                    Nuestras vajillas sorprende a tus visitas y hace sentir la comodidad en tu hogar
+                </p>
+                <p>
+                    Te traigo las mejores opciones
+                </p>
+                <img src="./assets/vajillas con comidas.png" alt="vajillas con comidas" class="vajillas">
+                <img src="./assets/platos y bowls.png" alt="vajillas demostrativas" class="vajillas">
+                <img src="./assets/platos y bowls 2.png" alt="vajillas demostrativas" class="vajillas">
+            </div>
+        </section>
+        <article class="articlebar">
+            <h1>Muy pronto estarán de stock estos fantasticos platos</h1>
+            <figure>
+                <img src="./assets/platos.png" alt="platos playos y hondas" class="vajillas">
+                <figcaption>
+                    Platos con hermosos diseños perfectos comidas caseras, para disfrutar la compañia.
+                </figcaption>
+                <video autoplay muted loop type="video.mp4" src="./assets/platos playos y hondos.mp4" class="video"> </video>
+                <figcaption>
+                    Elegancia en mesa
+                </figcaption>
+            </figure>
+        </article>
+            <figure class="dosarticle">
+                <h1>Bowls para snack y salsas</h1>
+                <div class="dosarticleimagen">
+                    <img src="./assets/bowlss.png" alt="bowls con snack y comidas" class="vajillas">
+                    <img src="./assets/bowls herm.png" alt="bowls hermosos" class="vajillas">
+                    <figcaption>
+                        Bowls con hermosos diseños perfectos para snack.
+                    </figcaption>
+                    <img src="./assets/bowlscolor.png" alt="bowls colorido" class="vajillas">
+                    <figcaption>
+                        Alma jujeña
+                    </figcaption>
+                    <video autoplay muted loop type="video.mp4" src="./assets/videobowls.mp4" class="video"> </video>
+                </div>
+            </figure>
+        <section id="contacto">
+            <h2>contacto</h2>
+            <p>Completá el formulario para escribirme</p>
+            <form action="#" method="get">
+                <label for="name">Nombre y apellido</label>
+                <input
+                    id="nombre"
+                    name="nombre"
+                    required
+                >
+ 
+                <div>
+                    <label for="email">Correo electrónico</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="5"
+                        ></textarea>
+                </div>
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+        </section>
+        <footer class="footer">
+            <p>Primera página web- Ing Industrial Monachesi</p>
+            <p>2026 &copy;</p>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="./assets/instagram.png" alt="instagram" class="rrss">
+                    </a>
+                    <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                        <img src="./assets/facebook.png" alt="facebook" class="rrss">
+                    </a>
+                    <a href="wa.me" target="_blank">
+                        <img src="./assets/whatsapp.png" alt="whatsapp" class="rrss">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
